@@ -1,0 +1,2 @@
+rootProject.name = "Hackerthon"
+include ':app'

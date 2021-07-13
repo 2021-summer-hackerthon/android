@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/my_review"
+        android:enabled="true"
+        android:icon="@drawable/rectangle_51"
+        android:title="내 리뷰"/>
+
+    <item
+        android:id="@+id/my_like"
+        android:enabled="true"
+        android:icon="@drawable/image_27"
+        android:title="찜"/>
+
+    <item
+        android:id="@+id/map"
+        android:enabled="true"
+        android:icon="@drawable/image123"
+        android:title="위치"/>
+
+    <item
+        android:id="@+id/like"
+        android:enabled="true"
+        android:icon="@drawable/image122"
+        android:title="추천"/>
+
+    <item
+        android:id="@+id/setting"
+        android:enabled="true"
+        android:icon="@drawable/rectangle7"
+        android:title="설정"/>
+
+</menu>
