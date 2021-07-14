@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit
 
 object Retrofit {
 
+    internal val service: Service
 
     private const val BASE_URL = "http://34.64.105.63:8888/"
 
@@ -27,5 +28,7 @@ object Retrofit {
             .client(logger)
             .build()
 
+
+        service = retrofit.create(Service::class.java)
     }
 }

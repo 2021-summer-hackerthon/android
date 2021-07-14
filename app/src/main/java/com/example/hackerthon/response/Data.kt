@@ -9,7 +9,8 @@ data class Data(
     val image: String,
     val name: String,
     val phone: String,
-    val star: Any,
+    val star: Double,
+    val user: User,
     val xPosition: String,
     val yPosition: String
 )
